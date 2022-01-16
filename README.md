@@ -24,14 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 1]()
+![Screenshot 1](https://github.com/hutamatr/order-summary-reactjs/blob/master/src/Images/mobile.png)
 
-![Screenshot 2]()
+![Screenshot 2](https://github.com/hutamatr/order-summary-reactjs/blob/master/src/Images/dekstop.png)
 
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-card-component-with-flexbox-css-grid-and-css-preprocessor-nQZJ-_Aa6)
-- Live Site URL: [Demo]()
+- Live Site URL: [Demo](https://hutamatr.github.io/order-summary-reactjs/)
 
 ## My process
 
