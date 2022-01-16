@@ -1,0 +1,22 @@
+@import './variable';
+
+.card__data {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  row-gap: 1rem;
+
+  &--title {
+    font-size: $h2-font-size;
+    color: $dark-blue;
+  }
+
+  &--description {
+    font-size: $small-font-size;
+    font-weight: lighter;
+    text-align: center;
+    color: $desaturated-blue;
+    line-height: $rem-1-5;
+  }
+}

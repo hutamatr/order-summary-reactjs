@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@import '../Styles/variable';
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $body-font;
+  background-color: $pale-blue;
+  background-image: url(../Images/pattern-background-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+  padding: 3.75rem 0 2rem;
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 21.875rem;
+  margin-left: $rem-1-5;
+  margin-right: $rem-1-5;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.main {
+  overflow: hidden; /*For animation*/
+}

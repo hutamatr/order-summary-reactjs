@@ -1,0 +1,34 @@
+@import './variable';
+
+.card__button {
+  display: block;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  margin: 0 1.5rem;
+  background-color: $bright-blue;
+  color: $very-pale-blue;
+  font-weight: $font-bold-3;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $dark-blue;
+  }
+}
+
+.card__cancel {
+  text-align: center;
+  padding: 0.3rem 0 2rem;
+
+  &--link {
+    font-size: $small-font-size;
+    color: $desaturated-blue;
+    font-weight: $font-bold-2;
+
+    &:hover {
+      color: $dark-blue;
+    }
+  }
+}

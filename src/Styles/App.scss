@@ -1,0 +1,26 @@
+@import './variable';
+
+.card {
+  &__container {
+    row-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-image: url(../Images/pattern-background-desktop.svg);
+    background-size: contain;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: bottom top;
+  }
+  .cards {
+    margin: 2rem auto;
+  }
+
+  .footer {
+    &__card {
+      margin: 0 auto;
+    }
+  }
+}

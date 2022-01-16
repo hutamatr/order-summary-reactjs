@@ -1,0 +1,44 @@
+/*=============== VARIABLES CSS ===============*/
+
+$header-height: 3.5rem;
+
+/*========== Colors ==========*/
+
+// Primary
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+
+// Neutral
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+
+/*========== Font and typography ==========*/
+$body-font: 'Red Hat Display', sans-serif;
+$biggest-font-size: 2rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: 1.3rem;
+$small-font-size: 0.938rem;
+$smaller-font-size: 0.75rem;
+
+/*========== Font weight ==========*/
+$font-medium: 300;
+$font-semi-bold: 400;
+$font-bold-1: 500;
+$font-bold-2: 700;
+$font-bold-3: 900;
+
+/*========== REM ==========*/
+$rem-0-25: 0.25rem;
+$rem-0-5: 0.5rem;
+$rem-0-75: 0.75rem;
+$rem-1: 1rem;
+$rem-1-5: 1.5rem;
+$rem-2: 2rem;
+$rem-2-5: 2.5rem;
+
+/*========== z index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;
